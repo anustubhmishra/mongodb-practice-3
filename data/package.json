@@ -1,0 +1,25 @@
+`{
+  "name": "ecommerce-mongodb-catalog",
+  "version": "1.0.0",
+  "description": "E-commerce catalog with nested document structure in MongoDB",
+  "main": "setup/dbSetup.js",
+  "scripts": {
+    "setup": "node setup/dbSetup.js",
+    "test": "echo \\"No tests specified\\" && exit 0"
+  },
+  "keywords": [
+    "mongodb",
+    "ecommerce",
+    "nested-documents",
+    "mongoose",
+    "database"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "mongoose": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}`,
